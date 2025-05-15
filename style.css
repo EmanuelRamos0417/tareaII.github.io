@@ -1,0 +1,77 @@
+body {
+    background-color: #1e1e2f;
+    font-family: 'Courier New', Courier, monospace;
+    color: #d4ffdc;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s ease;
+  }
+  
+  h1 {
+    padding: 20px;
+    font-size: 2.7rem;
+    color: #98ff98;
+    text-shadow: 0 0 5px #0f0;
+  }
+  
+  .saludo {
+    font-size: 1.1rem;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    color: #d0f0d0;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background-color: #2d2d3a;
+    border: 1px solid #00ffcc;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 10px #00ffcc60;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00ffcc;
+  }
+  
+  .card h2 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00ffcc;
+    color: #000000;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #1affd5;
+    transform: scale(1.08);
+  }
+  
+  .change-bg {
+    margin-bottom: 20px;
+  }
+  
